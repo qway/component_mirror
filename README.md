@@ -1,10 +1,10 @@
-directshow
+Mirror
 ==========
-This is the directshow Ubitrack submodule.
+This is the Mirror Ubitrack submodule.
 
 Description
 ----------
-The directshow contains MS Windows specific directshow framegrabber.
+The Mirror component lets you track things through mirrors.
 
 Usage
 -----
@@ -15,15 +15,5 @@ In order to use it, you have to clone the buildenvironment, change to the ubitra
 
 Dependencies
 ----------
-In addition, this module has to following submodule dependencies which have to be added for successful building:
+This module has no submodule dependencies.
 
-<table>
-  <tr>
-    <th>Component</th><th>Dependency</th>
-  </tr>
-  <tr>
-    <td>all</td><td>utVision</td>
-  </tr>
-</table>
-
-Since this component is MS Windows specific, the directshow can only be built on MS Windows.
